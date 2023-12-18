@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    padding: 1em;
+}
+
+.navigation {
+    background-color: red;
+}
+
+li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.mainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 93vh;
+    flex-direction: column;
+    gap: 1em;
+    width: 100vw;
+}
+
+.tableForStoringPass {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    border-left: transparent;
+    border-right: transparent;
+    width: 50vw;
+}
+td,th{
+    padding: 8px;
+    width: 50vw;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+.btn{
+    background-color: #0D6EFD;
+    height: 2.5em;
+    width: 5em;
+    border: none;
+    color: #dfdfdd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #0066ff;
+}
